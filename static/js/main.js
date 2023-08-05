@@ -96,7 +96,7 @@ socket.on('disconnecting now', function (msg) {
 
 socket.on('partner', function (partner_data) {
     if(partner_id==null){
-        $('#messages').append("<div>"+'Connected to '+partner_data.username+"</div>");
+        $('#messages').append("<div>"+'მოსაუბრე დაკავშირებულია'+partner_data.username+"</div>");
         $('#partnername').html(partner_data.username);
         $('#partnerimg').attr("src",partner_data.avatar);
         $('#m').css("pointer-events","auto");
