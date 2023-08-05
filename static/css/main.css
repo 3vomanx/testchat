@@ -144,7 +144,7 @@ form button:hover{
     border-top-left-radius:10px;
     border-top-right-radius: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 15px;
 }
 
