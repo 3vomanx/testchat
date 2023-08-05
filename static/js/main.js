@@ -70,7 +70,6 @@ socket.on('chat message mine',function(msg){
     $('#messages .me').css('background', "rgb(0 98 255)");
 });
 
-
 socket.on('chat message partner', function (msg) {
     audio.play();
     var output_msg = emojione.shortnameToImage(msg);        
@@ -79,7 +78,6 @@ socket.on('chat message partner', function (msg) {
         $("#messages").scrollTop($("#messages")[0].scrollHeight);
     });
     $('#messages .partner').css('background', "#EA7E1D");
-
 });
 
 socket.on('disconnecting now', function (msg) {
@@ -96,7 +94,7 @@ socket.on('disconnecting now', function (msg) {
 
 socket.on('partner', function (partner_data) {
     if(partner_id==null){
-        $('#messages').append("<div>"+'მოსაუბრე დაკავშირებულია'+partner_data.username+"</div>");
+        $('#messages').append('<div class="connectedalert">'+'მოსაუბრე დაკავშირებულია'+partner_data.username+"</div>");
         $('#partnername').html(partner_data.username);
         $('#partnerimg').attr("src",partner_data.avatar);
         $('#m').css("background",FORM_INPUT_MSG_COLOR);
