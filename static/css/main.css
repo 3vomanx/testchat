@@ -152,7 +152,7 @@ form button:hover{
     width: 90px;
     height: 60px;
     margin: 5px 0 0 5px;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
     outline: none;
@@ -165,9 +165,12 @@ form button:hover{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    position: fixed;
 }
   
-  #nextpartner:hover {background-color: #3e8e41}
+  #nextpartner:hover {
+    background-color: #3e8e41
+}
   
   #nextpartner:active {
     background-color: #3e8e41;
