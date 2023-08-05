@@ -99,7 +99,6 @@ socket.on('partner', function (partner_data) {
         $('#messages').append("<div>"+'მოსაუბრე დაკავშირებულია'+partner_data.username+"</div>");
         $('#partnername').html(partner_data.username);
         $('#partnerimg').attr("src",partner_data.avatar);
-        $('#m').css("pointer-events","auto");
         $('#m').css("background",FORM_INPUT_MSG_COLOR);
         $('form button').css("pointer-events","auto");
         $('form button').css("background",FORM_INPUT_SEND_COLOR);
