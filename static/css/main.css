@@ -40,6 +40,10 @@ form {
     width: 144.4%;
     border-radius: 5px;
     height: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 form input {
@@ -50,8 +54,8 @@ form input {
     margin: 0;
     float: left;
     height:100%;
-
 }
+
 form input:focus{
     outline:none;
 }
@@ -67,8 +71,8 @@ form button {
     background:#e0e2e5;
     pointer-events: none;
     position: relative;
-    
 }
+
 form button:hover{
     cursor: pointer;
 }
@@ -88,10 +92,12 @@ form button:hover{
 
 #messagediv {
     /*overflow: hidden;*/
-    width: 65%;
-    height: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    max-width: 1150px;
+    height: 72vh;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 10px;
 }
 
 #partnerdiv {
