@@ -251,7 +251,7 @@ form button:hover{
     background: green;
     text-align: center;
     font-weight: 550;
-    margin-top: 10px;
+    margin: 45px auto;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
