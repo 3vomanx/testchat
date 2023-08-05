@@ -67,7 +67,7 @@ socket.on('chat message mine',function(msg){
     $(newData).appendTo($('#messages')).slideDown(speed=200,callback = function(){
         $("#messages").scrollTop($("#messages")[0].scrollHeight);
     });
-    $('#messages .me').css('background',MSG_MINE_COLOR);
+    $('#messages .me').css('background', "rgb(0 98 255)");
 });
 
 
