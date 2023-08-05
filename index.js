@@ -74,7 +74,8 @@ http.listen(port, function(){
     console.log('listening on *:' + port);
 });
 
-reload = () =>{
-   var reloadbutton = document.getElementById("searchother")
-   reloadbutton.onclick = location.reload
+function refreshPage() {
+    if (confirm("Are you sure, want to refresh?")) {
+        location.reload();
+    }
 }
