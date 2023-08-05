@@ -285,9 +285,9 @@ h2,h3 {
     width: 100vw;
 }
 
-@media only screen and (max-width:385px){
+@media only screen and (max-width:376px){
     #messages .me {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     #messages .partner {
