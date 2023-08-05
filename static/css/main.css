@@ -288,6 +288,13 @@ h2,h3 {
 }
 
 @media only screen and (max-width:376px){
+
+    body {
+        background: rgb(71, 71, 71);
+        color: white;
+        height: 90vh;
+    }
+
     #messages .me {
         font-size: 18px !important;
     }
