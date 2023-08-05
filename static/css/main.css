@@ -145,7 +145,7 @@ form button:hover{
     border-top-right-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 #messages:hover {
