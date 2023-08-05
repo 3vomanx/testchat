@@ -97,20 +97,6 @@ form button:hover{
     margin-right: auto;
 }
 
-#partnerdiv {
-    /*width: 12%;*/
-    /*float: left;*/
-    /*margin-left: 2%;*/
-    /*margin-right: auto;*/
-}
-
-#mydiv {
-    /*width: 12%;*/
-    float: right;
-    /*margin-right: 0%;*/
-    /*margin-left: auto;*/
-}
-
 #outerdiv img.emojione{
     height:18px;
     width: auto;
@@ -162,8 +148,6 @@ form button:hover{
     border-bottom-right-radius: 0px;
     max-width: 90%;
     font-size: 1.2em;
-    background: rgb(0 98 255);
-    /* background: #f72702; */
 }
 
 #messages .partner {
@@ -176,7 +160,6 @@ form button:hover{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     font-size: 1.2em;
-
 }
 
 .emoji{
@@ -247,6 +230,59 @@ h2,h3 {
 #canvas {
     height: 100vh;
     width: 100vw;
+}
+
+
+textarea{
+    width: 100%;
+    height: 55px;
+    font-size: 17px;
+    padding: 0 15px 0 15px;
+    outline: 0;
+    border:0;
+    background: #e6e9eb;
+    resize: none;
+    padding: 3px 15px 3px 15px;
+}
+
+.chat_components {
+    max-width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockuser {
+    width: 12vh;
+    height: 63px;
+    display: flex;
+    background: radial-gradient(circle, rgb(212, 31, 46) 38%, rgb(139, 15, 38) 75%);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.submitButton{
+    width: 11vh;
+    height: 63px;
+    border: none;
+    background: radial-gradient(circle, rgba(250,66,81,1) 38%, rgba(184,3,37,1) 75%, rgba(79,20,32,1) 100%);
+    background: #0b2e8f;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: 0;
+    color: #fff;
+}
+
+.fa{
+    font-size: 35px;
 }
 
 @media screen and (max-width:375px){

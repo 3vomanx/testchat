@@ -37,11 +37,23 @@
 			<div id="messagediv">
 				<div id = "messages"></div>
 				<div id = "newMessage">
-					<form id='msgform' onsubmit="return submitForm()">
+					<!-- <form id='msgform' onsubmit="return submitForm()">
+						<button id="nextpartner"> <i class="fa fa-refresh"></i></button>
 						<input type="text" id="m" autocomplete="off" placeholder="Wait for partner to join"/>
 						<button id="submitButton"> <i class="fa fa-send-o"></i></button>
 						<label id="istyping">Partner is typing...</label>
-					</form>
+					</form> -->
+
+					<div class="chat_components">
+						<button class="blockuser" title="Block Partner">
+							<i class="fa fa-ban"></i>
+						</button>
+						<!-- <input type="text" placeholder="Text Message" id="message_input" class="scroll"> -->
+						<textarea type="text"  placeholder="Text message" id="m" class="scroll" cols="2" rows="3"></textarea>
+						<button class="submitButton" title="Send">
+							<i class="fa fa-paper-plane" id="send_btn"></i>
+						</button>
+				</div>
 				</div>
 			</div>
 		</div>
