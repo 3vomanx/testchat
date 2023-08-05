@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +35,12 @@ body {
 
 .heading {
     text-align: center;
+}
+
+.chatistitle{
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;  
 }
 
 form {
