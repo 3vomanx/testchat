@@ -291,8 +291,6 @@ h2,h3 {
     }
 
     #messages .partner {
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
         font-size: 18px !important;
     }
 }
