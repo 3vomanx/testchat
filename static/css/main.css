@@ -32,9 +32,12 @@ body {
 }
 
 .chatistitle{
+    width: 100%;
+    margin-top: 15px;
     font-family: 'Lobster', cursive;
     font-family: 'Lobster Two', cursive;
     font-style: italic;  
+    letter-spacing: 0.2cm;
 }
 
 form {
