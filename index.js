@@ -24,7 +24,6 @@ io.on('connection', function(socket){
 
     num_users++;
     socket.partner=null;
-    socket.username='anonymous';
     socket.avatar=faker.internet.avatar();
     socket.emit("init",{username:socket.username,avatar:socket.avatar,my_id:socket.id});
 
