@@ -156,6 +156,7 @@ form button:hover{
     text-align: center;
     cursor: pointer;
     outline: none;
+    position: fixed;
     color: #fff;
     background-color: #04AA6D;
     border: none;
@@ -165,7 +166,6 @@ form button:hover{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    position: fixed;
 }
   
   #nextpartner:hover {
@@ -246,10 +246,16 @@ form button:hover{
 }
 
 .connectedalert{
+    width: 50%;
+    border-radius: 20px;
     background: green;
     text-align: center;
     font-weight: 550;
     margin-top: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 div.emojionearea{
