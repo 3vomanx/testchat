@@ -78,7 +78,7 @@ socket.on('chat message partner', function (msg) {
     $(newData).appendTo($('#messages')).slideDown(speed=200,callback = function(){
         $("#messages").scrollTop($("#messages")[0].scrollHeight);
     });
-    $('#messages .partner').css('background', "#FFA74D");
+    $('#messages .partner').css('background', "#E09F34");
 
 });
 
