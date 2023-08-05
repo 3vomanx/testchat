@@ -5,17 +5,17 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-html {
+/* html {
     width: 100%;
     height:100%; 
-}
+} */
 
 body {
     font: 13px Helvetica, Arial;
     background: rgb(71, 71, 71);
-    background-size: cover;    
+    background-size: cover;
     height: 100%;
-    width: auto; 
+    width: auto;
     margin: 0;
     color: white;
 }
@@ -29,7 +29,6 @@ body {
     margin: 0;
     font: 13px Helvetica, Arial;    
 }
-
 
 .heading {
     text-align: center;
@@ -61,7 +60,6 @@ form input:focus{
 }
 
 form button {
-    height:100%;
     width: 7%;
     height: 35px;
     border: 0;
@@ -80,24 +78,21 @@ form button:hover{
 #outerdiv {
     overflow: hidden;
     width: 100%;
+    max-width: 1350px;
     height: 100%;
     margin-top: 1.3%;
     margin-left: auto;
     margin-right: auto;
-    max-height: 100%;
-    max-width: 100%;
     margin-bottom: auto;
 }
 
 
 #messagediv {
     /*overflow: hidden;*/
-    width: 100%;
-    max-width: 1150px;
-    height: 72vh;
-    margin: auto;
-    margin-top: 5vh;
-    border-radius: 10px;
+    width: 98%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #partnerdiv {
@@ -131,29 +126,25 @@ form button:hover{
     border-radius:65px;
 }
 
-
-
-
 #messages {
-    overflow-y: auto;
-    position: relative;
-    list-style-type: none;
+    max-width: 1450px;
     width: 100%;
-    height: 100%;
-    margin-top: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    padding: 0;
-    background-color:rgba(242,234,222,0.5) ;/*#f2eade;*/
+    height: 72vh;
+    margin: auto;
+    word-wrap: break-word;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-    word-wrap: break-word;    
-
+    background-color:rgba(242,234,222,0.5) ;
+    padding: 0;
+    list-style-type: none;
+    overflow-y: auto;
+    position: relative;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
 }
 
 #messages:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 68px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 #messages .me {
@@ -190,9 +181,6 @@ form button:hover{
     width: 70%;
     height: 5%;
 }
-
-
-
 
 #m{
     pointer-events: none;
@@ -250,6 +238,12 @@ h2,h3 {
     width: 100vw;
 }
 
+@media screen and (max-width:375px){
+    #messages {
+        font-size: 50px;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .align-left {
         width: 50%;
@@ -264,6 +258,7 @@ h2,h3 {
         max-width: 50px !important;
         float: right;
     }
+    
     #partnerdiv h3, #mydiv h3 {
         margin: 0px;
     }
