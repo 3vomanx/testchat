@@ -162,6 +162,7 @@ form button:hover{
     border-bottom-right-radius: 0px;
     max-width: 90%;
     font-size: 1.2em;
+    background: rgb(0 98 255);
     /* background: #f72702; */
 }
 
