@@ -35,20 +35,14 @@
 		</div>
 		<div id = "outerdiv">
 			<div id="messagediv">
-				<div id = "messages"></div>
+				<div id = "messages">
+					<button id="nextpartner" onclick="window.location.reload();"><i class="fa fa-refresh"></i></button>
+				</div>
 				<div id = "newMessage">
-					<!-- <form id='msgform' onsubmit="return submitForm()">
-						<button id="nextpartner"> <i class="fa fa-refresh"></i></button>
+					<form id='msgform' onsubmit="return submitForm()">
 						<input type="text" id="m" autocomplete="off" placeholder="Wait for partner to join"/>
 						<button id="submitButton"> <i class="fa fa-send-o"></i></button>
 						<label id="istyping">Partner is typing...</label>
-					</form> -->
-
-					<form id='msgform' onsubmit="return submitForm()">
-						<button class="blockuser" title="Search Partner" onclick="refreshPage()" id="searchother"><i class="fa fa-ban"></i></button>
-						<input type="text" id="m" autocomplete="off" placeholder="Wait for partner to join"/>
-						<button id="submitButton"><i class="fa fa-send-o"></i></button>
-						<button>ragaca</button>
 					</form>
 				</div>
 			</div>

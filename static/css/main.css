@@ -36,11 +36,13 @@ body {
 
 form {
     position: relative;
-    width: 142.9%;
+    width: 144.4%;
+    border-radius: 5px;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 form input {
@@ -95,6 +97,20 @@ form button:hover{
     margin-right: auto;
 }
 
+#partnerdiv {
+    /*width: 12%;*/
+    /*float: left;*/
+    /*margin-left: 2%;*/
+    /*margin-right: auto;*/
+}
+
+#mydiv {
+    /*width: 12%;*/
+    float: right;
+    /*margin-right: 0%;*/
+    /*margin-left: auto;*/
+}
+
 #outerdiv img.emojione{
     height:18px;
     width: auto;
@@ -132,6 +148,33 @@ form button:hover{
     gap: 3px;
 }
 
+#nextpartner {
+    width: 10%;
+    height: 5vh;
+    margin: 5px 0 0 5px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #5e5e5e;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+  #nextpartner:hover {background-color: #3e8e41}
+  
+  #nextpartner:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #383838;
+    transform: translateY(4px);
+  }
+
 #messages:hover {
     box-shadow: 10px 14px 38px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -146,6 +189,8 @@ form button:hover{
     border-bottom-right-radius: 0px;
     max-width: 90%;
     font-size: 1.2em;
+    background: rgb(0 98 255);
+    /* background: #f72702; */
 }
 
 #messages .partner {
@@ -158,6 +203,7 @@ form button:hover{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     font-size: 1.2em;
+
 }
 
 .emoji{

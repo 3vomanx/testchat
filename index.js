@@ -23,10 +23,10 @@ app.get('/', function(req, res){
 io.on('connection', function(socket){
 
     function refreshPage() {
-        if (confirm("Are you sure, want to refresh?")) {
-            location.reload();
-        }
+    if (confirm("Are you sure, want to refresh?")) {
+        location.reload();
     }
+}
 
     num_users++;
     socket.partner=null;

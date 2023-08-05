@@ -23,7 +23,6 @@ $('#m').css("pointer-events","none");
 $('#m').css("background",FORM_INPUT_DISABLED_COLOR);
 $('form button').css("pointer-events","none");
 $('form button').css("background",FORM_INPUT_DISABLED_COLOR);
-$('#messages').append('<div class="partner">Try refreshing if you are not connected to anyone within a minute. </div>');
 
 function timeoutFunction() {
     socket.emit('typing', false);
