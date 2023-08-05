@@ -97,7 +97,6 @@ form button:hover{
     margin-bottom: auto;
 }
 
-
 #messagediv {
     /*overflow: hidden;*/
     width: 98%;
@@ -301,6 +300,10 @@ h2,h3 {
 
     #messages .partner {
         font-size: 18px !important;
+    }
+    
+    #messages {
+        height: 68vh;
     }
 }
 
