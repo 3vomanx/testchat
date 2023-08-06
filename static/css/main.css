@@ -322,12 +322,12 @@ h2,h3 {
         margin-top: -3px;
     }
 
-    form {
-        width: 136%;
+    div.emojionearea-inline {
+        width: 85% !important;
     }
 
     form button{
-        width: auto;
+        width: 14%;
     }
 }
 
