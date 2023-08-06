@@ -184,7 +184,7 @@ form button:hover{
   }
 
 #messages:hover {
-    box-shadow: 10px 14px 38px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 #messages .me {
@@ -289,6 +289,23 @@ h2,h3 {
     height: 100vh;
     width: 100vw;
 } */
+
+@media only screen and (max-width:1440px){
+
+    #messages {
+        height: 68vh;
+    }
+
+    .emojionearea.emojionearea-inline{
+        font-size: 18px !important;
+    }
+
+    .chatistitle{
+        margin-top: -3px;
+    }
+
+}
+
 
 @media only screen and (max-width:376px){
     
