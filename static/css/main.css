@@ -321,6 +321,14 @@ h2,h3 {
     .chatistitle{
         margin-top: -3px;
     }
+
+    form {
+        width: 136%;
+    }
+
+    form button{
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 500px) {
