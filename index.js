@@ -62,6 +62,7 @@ io.on('connection', function(socket){
         if(socket.partner!=null){
             socket.broadcast.to(socket.partner).emit("typing", false);
                socket.broadcast.to(socket.partner).emit("disconnecting now", 'პარტნიორი გაითიშა :(');
+               $('#messages').append('<div class="connectedalert">'+'მოსაუბრე დაკავშირებულია'+partner_data.username+"</div>");
         }
         else{
             waiting_list.splice(0,1);
