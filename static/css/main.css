@@ -303,7 +303,66 @@ h2,h3 {
     .chatistitle{
         margin-top: -3px;
     }
+}
 
+@media only screen and (max-width:960px){
+
+    #messages .me {
+        font-size: 20px !important;
+    }
+
+    #messages .partner {
+        font-size: 20px !important;
+    }
+
+    #messages {
+        height: 65vh;
+    }
+
+    #nextpartner {
+        width: 75px;
+        height: 60px;
+    }
+
+    .emojionearea.emojionearea-inline{
+        font-size: 18px !important;
+    }
+
+    .chatistitle{
+        margin-top: -3px;
+    }
+
+    div.emojionearea-inline {
+        width: 90% !important;
+    }
+
+    form button{
+        width: 8.9%;
+    }
+}
+
+@media only screen and (max-width:560px){
+
+    #messages .me {
+        font-size: 19px !important;
+    }
+
+    #messages .partner {
+        font-size: 19px !important;
+    }
+
+    #nextpartner {
+        width: 65px;
+        height: 50px;
+    }
+
+    div.emojionearea-inline {
+        width: 85% !important;
+    }
+
+    form button{
+        width: 13.9%;
+    }
 }
 
 
