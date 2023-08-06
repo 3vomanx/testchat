@@ -312,6 +312,11 @@ h2,h3 {
     .emojionearea.emojionearea-inline{
         font-size: 15px !important;
     }
+
+    .connectedalert{
+        width: 55%;
+        margin: 55px auto;
+    }
 }
 
 @media screen and (max-width: 500px) {
